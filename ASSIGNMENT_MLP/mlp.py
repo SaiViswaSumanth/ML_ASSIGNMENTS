@@ -44,14 +44,12 @@ class Neuron(object):
         print(self.weight.shape)
         
 #prediction fucntion  
-
     def prediction(self, inputs):
         summ = mp.dot(inputs, self.weight[1:]) + self.weight[0]
         d=self.step(summ)
         return d
         
 #activation fucntion is a step function 
-
     def step(self,summ):
         if summ > 0:
             activation= 1
@@ -60,7 +58,6 @@ class Neuron(object):
         return activation
     
 #training fucntion
-
     def train(self, training_inputs, labels):
         for i in range(self.max_epoch):
             for inputs, label in zip(training_inputs, labels):
