@@ -1,6 +1,6 @@
 # ML_ASSIGNMENTS
 ## First Assignent - Multilayer Perceptron implementation 
-## Team members 
-Swathi salimath  - 1ms17is121  
-Tarun R          - 1ms17is123 
-Sai Viswa        - 1ms17is154
+## team members:
+##swathi salimath 1MS17IS121
+##Tarun R 1MS17IS123
+##Sai Viswa Sumanth 1MS17IS154
