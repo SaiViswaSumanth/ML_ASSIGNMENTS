@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,confusion_matrix,recall_score,precision_score
 
+
 #dataset features determine if the ground is rock or mine(binary format)
 df = pd.read_csv('sonarnew.csv')
 X = df.drop(['Class'], axis='columns')
