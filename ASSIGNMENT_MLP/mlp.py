@@ -15,8 +15,11 @@ y = df.Class
 
 
 
+
 #splitting of data to train and test 80 to 20 percent respectively
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=100)
+
+
 
 #arrays to matrices for easier numerical computations
 X_train = mp.asmatrix(pd.DataFrame(X_train), dtype = 'float64')
@@ -25,6 +28,7 @@ X_test = mp.asmatrix(pd.DataFrame(X_test), dtype = 'float64')
 y_test = mp.array(pd.DataFrame(y_test), dtype = 'float64')
 
 
+#Assigning X_train to training_inputs & y_train to labels
 training_inputs = X_train
 labels = y_train
 
